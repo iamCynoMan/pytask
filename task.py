@@ -35,3 +35,23 @@ ques1(a, b, c)
 # import statistics
 # items = [6, 1, 8, 2, 3]
 # statistics.median(items)
+
+
+# # WAP to print the number of prime numbers which are less than or equal to a given integer.
+
+# def ques4(n):
+#     count = 0
+
+#     for num in range(n):
+#         if num <= 1:
+#             continue
+#         for i in range(2, num):
+#             if (num % i) == 0:
+#                 break
+#         else:
+#             count += 1
+
+#     return print(count)
+
+
+# ques4(int(input("Enter a number: ")))
